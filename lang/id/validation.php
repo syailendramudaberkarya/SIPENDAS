@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'required' => ':attribute wajib diisi.',
+    'required_if' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'email' => 'Format :attribute tidak valid.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'boolean' => ':attribute harus bernilai aktif atau nonaktif.',
+    'date' => ':attribute harus berupa tanggal yang valid.',
+    'date_format' => 'Format :attribute tidak valid.',
+    'after' => ':attribute harus setelah :date.',
+    'after_or_equal' => ':attribute tidak boleh sebelum :date.',
+    'before_or_equal' => ':attribute tidak boleh setelah :date.',
+    'exists' => ':attribute tidak tersedia atau tidak aktif.',
+    'unique' => ':attribute sudah digunakan.',
+    'in' => 'Pilihan :attribute tidak valid.',
+    'enum' => 'Pilihan :attribute tidak valid.',
+    'regex' => 'Format :attribute tidak valid.',
+    'confirmed' => 'Konfirmasi :attribute tidak sesuai.',
+    'present' => ':attribute harus disertakan.',
+    'min' => ['string' => ':attribute minimal :min karakter.', 'numeric' => ':attribute minimal :min.'],
+    'max' => ['string' => ':attribute maksimal :max karakter.', 'numeric' => ':attribute maksimal :max.', 'file' => ':attribute maksimal :max KB.'],
+    'between' => ['numeric' => ':attribute harus antara :min dan :max.'],
+    'password' => [
+        'letters' => ':attribute harus mengandung huruf.',
+        'numbers' => ':attribute harus mengandung angka.',
+        'mixed' => ':attribute harus mengandung huruf besar dan kecil.',
+        'symbols' => ':attribute harus mengandung simbol.',
+        'uncompromised' => ':attribute tidak aman. Gunakan password lain.',
+    ],
+];
